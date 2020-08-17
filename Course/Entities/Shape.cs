@@ -6,7 +6,7 @@ namespace Course.Entities
     {
         public Color Color { get; set; }
 
-        protected Shape(Color color)
+        public Shape(Color color)
         {
             Color = color;
         }
